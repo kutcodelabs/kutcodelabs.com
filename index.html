@@ -1,34 +1,40 @@
 <!doctype html>
-<html lang="tr" data-lang="tr" data-title-tr="MotionArea — Telefonun konsol, bedenin kumanda · KutCode Labs" data-title-en="MotionArea — Your phone is the console, your body the controller · KutCode Labs">
+<html lang="tr" data-lang="tr" data-title-tr="KutCode Labs — İnsanları harekete geçiren yazılımlar" data-title-en="KutCode Labs — Software that gets people moving">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MotionArea — Telefonun konsol, bedenin kumanda · KutCode Labs</title>
-<meta name="description" content="MotionArea: kumanda yok, kablo yok. Telefonun kamerası bütün vücudunu takip eder; ailece, 1–4 kişi hareket ederek oynayın. Altı hareket oyunu.">
-<meta property="og:title" content="MotionArea — KutCode Labs">
+<title>KutCode Labs — İnsanları harekete geçiren yazılımlar</title>
+<meta name="description" content="KutCode Labs, mobil oyunlar ve uygulamalar geliştiren bağımsız bir yazılım stüdyosu. İlk ürünümüz MotionArea: telefonun kamerasıyla bütün vücudu takip eden aile oyunları.">
+<meta property="og:title" content="KutCode Labs">
 <meta property="og:site_name" content="KutCode Labs">
-<meta property="og:description" content="Your phone is the console, your body the controller. Six motion games for 1–4 players.">
-<meta property="og:image" content="https://kutcodelabs.com/img/og-image.jpg">
+<meta property="og:description" content="An independent software studio making mobile games and apps. Our first product: MotionArea.">
+<meta property="og:image" content="https://kutcodelabs.com/img/og-kutcode.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:url" content="https://kutcodelabs.com/">
 <meta name="theme-color" content="#011122">
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=6">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=7">
 <script src="/lang.js?v=3" defer></script>
-<script src="/slides.js?v=5" defer></script>
+<script src="/site.js?v=1" defer></script>
 </head>
 <body>
 
-<header class="top">
+<header class="top over">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="KutCode Labs"><img src="/img/logo.png" alt="kutcodelabs" width="394" height="120"></a>
+    <a class="brand" href="/" aria-label="KutCode Labs">
+      <img class="logo-dark" src="/img/logo.png" alt="kutcodelabs" width="394" height="120">
+      <img class="logo-light" src="/img/logo-white.png" alt="" width="394" height="120">
+    </a>
     <nav class="nav">
-      <a href="#games"><span lang="tr">Oyunlar</span><span lang="en">Games</span></a>
-      <a href="#how"><span lang="tr">Nasıl oynanır</span><span lang="en">How to play</span></a>
-      <a href="/motionarea/privacy/"><span lang="tr">Gizlilik</span><span lang="en">Privacy</span></a>
+      <a href="#what"><span lang="tr">Ne yapıyoruz</span><span lang="en">What we do</span></a>
+      <a href="#products"><span lang="tr">Ürünler</span><span lang="en">Products</span></a>
+      <a href="#about"><span lang="tr">Hakkımızda</span><span lang="en">About</span></a>
+      <a href="#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
     </nav>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" data-set="tr">TR</button>
@@ -38,164 +44,176 @@
 </header>
 
 <main>
-  <section class="hero">
-    <!-- The six games, one after another: a slow zoom on each, a soft fade to the next. -->
-    <div class="slides" aria-hidden="true">
-      <div class="slide on" style="background-image: url('/img/hero-jungle-run.webp')"></div>
-      <div class="slide" style="background-image: url('/img/hero-gold-rain.webp')"></div>
-      <div class="slide" style="background-image: url('/img/hero-red-light.webp')"></div>
-      <div class="slide" style="background-image: url('/img/hero-wall-rush.webp')"></div>
-      <div class="slide" style="background-image: url('/img/hero-snowball-towers.webp')"></div>
-      <div class="slide" style="background-image: url('/img/hero-floor-piano.webp')"></div>
-    </div>
-    <div class="now" aria-hidden="true">
-      <div class="now-names">
-        <span class="now-name on"><span lang="tr">Jungle Run</span><span lang="en">Jungle Run</span></span>
-        <span class="now-name"><span lang="tr">Altın Yağmuru</span><span lang="en">Gold Rain</span></span>
-        <span class="now-name"><span lang="tr">Kırmızı Işık, Yeşil Işık</span><span lang="en">Red Light, Green Light</span></span>
-        <span class="now-name"><span lang="tr">Duvar Koşusu</span><span lang="en">Wall Rush</span></span>
-        <span class="now-name"><span lang="tr">Kartopu Kuleleri</span><span lang="en">Snowball Towers</span></span>
-        <span class="now-name"><span lang="tr">Yer Piyanosu</span><span lang="en">Floor Piano</span></span>
+  <!-- The studio up front; our first product playing on a phone beside it. -->
+  <section class="co-hero">
+    <div class="wrap co-hero-grid">
+      <div class="co-hero-text">
+        <div class="kicker"><span lang="tr">Yazılım ve oyun stüdyosu</span><span lang="en">Software &amp; game studio</span></div>
+        <h1>
+          <span lang="tr">İnsanları <em>harekete geçiren</em> yazılımlar.</span>
+          <span lang="en">Software that gets people <em>moving.</em></span>
+        </h1>
+        <p class="lead">
+          <span lang="tr">KutCode Labs, mobil oyunlar ve uygulamalar geliştiren bağımsız bir yazılım stüdyosu. Telefonun kamerasını ve cihaz üzerinde çalışan yapay zekâyı kullanarak, ek donanım gerektirmeyen deneyimler tasarlıyoruz.</span>
+          <span lang="en">KutCode Labs is an independent software studio making mobile games and apps. We use the phone's camera and on-device AI to build experiences that need no extra hardware.</span>
+        </p>
+        <div class="cta">
+          <a class="button" href="#products"><span lang="tr">Ürünlerimiz</span><span lang="en">Our products</span> <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="button ghost" href="#contact"><span lang="tr">Bize ulaşın</span><span lang="en">Get in touch</span></a>
+        </div>
       </div>
-      <div class="now-dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="scene" aria-hidden="true">
+        <img class="buddy buddy-1" src="/img/animals/fox.webp" alt="" width="381" height="420">
+        <img class="buddy buddy-2" src="/img/animals/leopard.webp" alt="" width="420" height="367">
+        <div class="device">
+          <div class="screen">
+            <div class="slides">
+              <div class="slide on" style="background-image: url('/img/hero-jungle-run.webp')"></div>
+              <div class="slide" style="background-image: url('/img/hero-gold-rain.webp')"></div>
+              <div class="slide" style="background-image: url('/img/hero-red-light.webp')"></div>
+              <div class="slide" style="background-image: url('/img/hero-wall-rush.webp')"></div>
+              <div class="slide" style="background-image: url('/img/hero-snowball-towers.webp')"></div>
+              <div class="slide" style="background-image: url('/img/hero-floor-piano.webp')"></div>
+            </div>
+          </div>
+        </div>
+        <div class="chip-float">
+          <img src="/img/motionarea-icon.png" alt="" width="40" height="40">
+          <span><strong>MotionArea</strong><small><span lang="tr">Yakında Google Play'de</span><span lang="en">Coming soon to Google Play</span></small></span>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track" lang="tr"><span>MOBİL OYUNLAR</span><span>HAREKET ALGILAMA</span><span>CİHAZ ÜSTÜ YAPAY ZEKÂ</span><span>AİLE EĞLENCESİ</span><span>ÖNCE GİZLİLİK</span><span>MOBİL OYUNLAR</span><span>HAREKET ALGILAMA</span><span>CİHAZ ÜSTÜ YAPAY ZEKÂ</span><span>AİLE EĞLENCESİ</span><span>ÖNCE GİZLİLİK</span></div>
+    <div class="track" lang="en"><span>MOBILE GAMES</span><span>MOTION TRACKING</span><span>ON-DEVICE AI</span><span>FAMILY FUN</span><span>PRIVACY FIRST</span><span>MOBILE GAMES</span><span>MOTION TRACKING</span><span>ON-DEVICE AI</span><span>FAMILY FUN</span><span>PRIVACY FIRST</span></div>
+  </div>
+
+  <!-- What we do, as tiles of different sizes. -->
+  <section id="what" class="what">
     <div class="wrap">
-      <div class="eyebrow"><span lang="tr">Ailece hareket oyunları</span><span lang="en">Motion games for the family</span></div>
-      <div class="app-id">
-        <img src="/img/motionarea-icon.png" alt="MotionArea" width="76" height="76">
-        <h1>MotionArea</h1>
+      <div class="what-head" data-reveal>
+        <div class="kicker"><span lang="tr">Ne yapıyoruz</span><span lang="en">What we do</span></div>
+        <h2><span lang="tr">Oyun, yapay zekâ ve tasarım bir arada.</span><span lang="en">Games, AI and design under one roof.</span></h2>
       </div>
-      <p class="lead">
-        <span lang="tr">Telefonun konsol, bedenin kumanda. Kumanda yok, kablo yok: telefonun kamerası bütün vücudunu takip eder, hayvanın da her yaptığını taklit eder.</span>
-        <span lang="en">Your phone is the console, your body the controller. No controllers, no cables: the phone's camera follows your whole body, and your animal copies everything you do.</span>
+      <div class="bento">
+        <article class="tile tile-play" data-reveal>
+          <img src="/img/hero-red-light.webp" alt="" width="1920" height="864" loading="lazy">
+          <div class="tile-text">
+            <h3><span lang="tr">Hareketle oynanan oyunlar</span><span lang="en">Games you play by moving</span></h3>
+            <p><span lang="tr">Koşmak, zıplamak, eğilmek: bedenin kumanda olur. Dört kişiye kadar, aynı ekranda.</span><span lang="en">Run, jump, lean: your body becomes the controller. Up to four players on one screen.</span></p>
+          </div>
+        </article>
+        <article class="tile tile-ai" style="--icon: url('/img/icons/camera.png')" data-reveal>
+          <span class="ic"></span>
+          <div class="tile-text">
+            <h3><span lang="tr">Cihaz üzerinde yapay zekâ</span><span lang="en">On-device AI</span></h3>
+            <p><span lang="tr">Vücut takibi telefonda, gerçek zamanlı çalışır. Kamera görüntüsü hiçbir yere gönderilmez.</span><span lang="en">Body tracking runs on the phone, in real time. The camera picture is never sent anywhere.</span></p>
+          </div>
+        </article>
+        <article class="tile tile-free" style="--icon: url('/img/icons/cast.png')" data-reveal>
+          <span class="ic"></span>
+          <div class="tile-text">
+            <h3><span lang="tr">Ek donanım yok</span><span lang="en">No extra hardware</span></h3>
+            <p><span lang="tr">Bir telefon ve bir TV yeter. Kumanda ya da sensör gerekmez.</span><span lang="en">A phone and a TV are enough. No controllers, no sensors.</span></p>
+          </div>
+        </article>
+        <article class="tile tile-pets" data-reveal>
+          <div class="tile-text">
+            <h3><span lang="tr">Sevilecek karakterler</span><span lang="en">Characters to love</span></h3>
+            <p><span lang="tr">Her oyuncu bir hayvana dönüşür; hayvan da onun her hareketini anında taklit eder.</span><span lang="en">Every player becomes an animal that copies their every move the moment they make it.</span></p>
+          </div>
+          <div class="pets-row">
+            <img src="/img/animals/fox.webp" alt="" width="381" height="420" loading="lazy">
+            <img src="/img/animals/leopard.webp" alt="" width="420" height="367" loading="lazy">
+            <img src="/img/animals/lion.webp" alt="" width="420" height="367" loading="lazy">
+            <img src="/img/animals/wolf.webp" alt="" width="420" height="416" loading="lazy">
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="wrap">
+      <div class="what-head" data-reveal>
+        <div class="kicker"><span lang="tr">Ürünler</span><span lang="en">Products</span></div>
+        <h2><span lang="tr">Yaptıklarımız</span><span lang="en">What we've made</span></h2>
+      </div>
+      <article class="product" data-reveal>
+        <div class="product-text">
+          <div class="product-id">
+            <img src="/img/motionarea-icon.png" alt="" width="64" height="64">
+            <div>
+              <h3>MotionArea</h3>
+              <span class="status"><span lang="tr">Android · Yakında Google Play'de</span><span lang="en">Android · Coming soon to Google Play</span></span>
+            </div>
+          </div>
+          <p class="product-line"><span lang="tr">Telefonun konsol, bedenin kumanda.</span><span lang="en">Your phone is the console, your body the controller.</span></p>
+          <p><span lang="tr">Telefonun kamerası bütün vücudunu takip eder, ekrandaki hayvanın da her hareketini taklit eder. Altı hareket oyunu, 1–4 oyuncu, reklam yok.</span><span lang="en">The phone's camera follows your whole body and your animal on screen copies every move. Six motion games, 1–4 players, no ads.</span></p>
+          <ul class="chips">
+            <li>Jungle Run</li>
+            <li><span lang="tr">Altın Yağmuru</span><span lang="en">Gold Rain</span></li>
+            <li><span lang="tr">Kırmızı Işık, Yeşil Işık</span><span lang="en">Red Light, Green Light</span></li>
+            <li><span lang="tr">Duvar Koşusu</span><span lang="en">Wall Rush</span></li>
+            <li><span lang="tr">Kartopu Kuleleri</span><span lang="en">Snowball Towers</span></li>
+            <li><span lang="tr">Yer Piyanosu</span><span lang="en">Floor Piano</span></li>
+          </ul>
+          <div class="cta">
+            <a class="button" href="/motionarea/"><span lang="tr">MotionArea'yı keşfet</span><span lang="en">Explore MotionArea</span> <span class="arrow" aria-hidden="true">→</span></a>
+            <a class="link" href="/motionarea/privacy/"><span lang="tr">Gizlilik politikası</span><span lang="en">Privacy policy</span></a>
+          </div>
+        </div>
+        <a class="mosaic" href="/motionarea/" aria-label="MotionArea">
+          <img src="/img/hero-jungle-run.webp" alt="" width="1920" height="864" loading="lazy">
+          <img src="/img/hero-gold-rain.webp" alt="" width="1920" height="864" loading="lazy">
+          <img src="/img/hero-red-light.webp" alt="" width="1920" height="864" loading="lazy">
+          <img src="/img/hero-wall-rush.webp" alt="" width="1920" height="864" loading="lazy">
+          <img src="/img/hero-snowball-towers.webp" alt="" width="1920" height="864" loading="lazy">
+          <img src="/img/hero-floor-piano.webp" alt="" width="1920" height="864" loading="lazy">
+        </a>
+      </article>
+      <div class="lab" data-reveal>
+        <div>
+          <h3><span lang="tr">Laboratuvarda yeni fikirler var.</span><span lang="en">More ideas are brewing in the lab.</span></h3>
+          <p><span lang="tr">Yeni projelerimizden ilk siz haberdar olmak için bize yazın.</span><span lang="en">Write to us to be the first to hear about what's next.</span></p>
+        </div>
+        <a class="button ghost-dark" href="mailto:info@kutcodelabs.com"><span lang="tr">Haber verin</span><span lang="en">Keep me posted</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <div class="kicker" data-reveal><span lang="tr">Hakkımızda</span><span lang="en">About us</span></div>
+      <p class="statement" data-reveal>
+        <span lang="tr">Teknolojinin insanları ekrana bağlamak yerine <em>bir araya getirmesi</em> gerektiğine inanıyoruz.</span>
+        <span lang="en">We believe technology should <em>bring people together</em>, not glue them to a screen.</span>
       </p>
-      <div class="cta">
-        <span class="button"><span lang="tr">Google Play</span><span lang="en">Google Play</span> <span class="soon"><span lang="tr">Yakında</span><span lang="en">Soon</span></span></span>
-        <a class="button ghost" href="#games"><span lang="tr">Oyunlara bak</span><span lang="en">See the games</span></a>
-      </div>
-      <div class="facts">
-        <span lang="tr">1–4 oyuncu</span><span lang="en">1–4 players</span>
-        <span lang="tr">6 oyun</span><span lang="en">6 games</span>
-        <span lang="tr">Reklam yok</span><span lang="en">No ads</span>
-        <span lang="tr">Görüntü telefonda kalır</span><span lang="en">The picture stays on the phone</span>
-      </div>
-    </div>
-  </section>
-
-  <section id="games">
-    <div class="wrap">
-      <div class="section-head">
-        <div class="kicker"><span lang="tr">Oyunlar</span><span lang="en">The games</span></div>
-        <h2><span lang="tr">Altı oyun, tek telefon</span><span lang="en">Six games, one phone</span></h2>
-        <p><span lang="tr">Koş, eğil, zıpla, donup kal: her oyunda bütün bedeninle oynarsın.</span><span lang="en">Run, lean, jump, freeze: every game is played with your whole body.</span></p>
-      </div>
-      <div class="games">
-        <article class="game">
-          <img src="/img/jungle-run.webp" alt="Jungle Run" loading="lazy" width="1280" height="576">
-          <div class="body">
-            <span class="tag"><span lang="tr">Yarış</span><span lang="en">Race</span></span>
-            <h3>Jungle Run</h3>
-            <p><span lang="tr">Yerinde koşarak kıvrılan orman yolunda yarış; eğilerek şerit değiştir, kütüklerin üstünden zıpla, dalların altından eğil.</span><span lang="en">Run on the spot through a winding jungle; lean to change lanes, jump the logs and duck the branches.</span></p>
-          </div>
-        </article>
-        <article class="game">
-          <img src="/img/gold-rain.webp" alt="Gold Rain" loading="lazy" width="1280" height="592">
-          <div class="body">
-            <span class="tag"><span lang="tr">Parti</span><span lang="en">Party</span></span>
-            <h3><span lang="tr">Altın Yağmuru</span><span lang="en">Gold Rain</span></h3>
-            <p><span lang="tr">Gökten altın yağıyor! Sağa sola eğilerek altının altına koş ve yakala, bombalardan kaç.</span><span lang="en">Gold is raining from the sky! Lean left and right to run under it and catch it, and dodge the bombs.</span></p>
-          </div>
-        </article>
-        <article class="game">
-          <img src="/img/red-light.webp" alt="Red Light, Green Light" loading="lazy" width="1280" height="592">
-          <div class="body">
-            <span class="tag"><span lang="tr">Yarış</span><span lang="en">Race</span></span>
-            <h3><span lang="tr">Kırmızı Işık, Yeşil Işık</span><span lang="en">Red Light, Green Light</span></h3>
-            <p><span lang="tr">Dev avcı şarkı söylerken koş, arkasını dönünce donup kal; kıpırdayan başa uçar!</span><span lang="en">Run while the giant hunter sings, freeze when he turns round; anyone still moving flies back to the start!</span></p>
-          </div>
-        </article>
-        <article class="game">
-          <img src="/img/wall-rush.webp" alt="Wall Rush" loading="lazy" width="1280" height="592">
-          <div class="body">
-            <span class="tag"><span lang="tr">Parti</span><span lang="en">Party</span></span>
-            <h3><span lang="tr">Duvar Koşusu</span><span lang="en">Wall Rush</span></h3>
-            <p><span lang="tr">Duvarlar geliyor! Bedeninle deliğin şeklini yap, yoksa göle düşersin.</span><span lang="en">Walls are coming! Make the shape of the hole with your body, or splash into the lake.</span></p>
-          </div>
-        </article>
-        <article class="game">
-          <img src="/img/snowball-towers.webp" alt="Snowball Towers" loading="lazy" width="1280" height="576">
-          <div class="body">
-            <span class="tag"><span lang="tr">Takım savaşı</span><span lang="en">Team battle</span></span>
-            <h3><span lang="tr">Kartopu Kuleleri</span><span lang="en">Snowball Towers</span></h3>
-            <p><span lang="tr">Kar topla, makine kartopu yapsın; elini kaldırıp nişan al ve karşı kulenin kardan adamlarını devir.</span><span lang="en">Scoop snow and the machine makes snowballs; raise your hand to aim and knock down the other tower's snowmen.</span></p>
-          </div>
-        </article>
-        <article class="game">
-          <img src="/img/floor-piano.webp" alt="Floor Piano" loading="lazy" width="1280" height="576">
-          <div class="body">
-            <span class="tag"><span lang="tr">Müzik</span><span lang="en">Music</span></span>
-            <h3><span lang="tr">Yer Piyanosu</span><span lang="en">Floor Piano</span></h3>
-            <p><span lang="tr">Aşağı inen parlayan tuşların üstüne zıpla ve ayaklarınla ünlü şarkıları çal.</span><span lang="en">Jump onto the glowing tiles as they come down and play famous tunes with your feet.</span></p>
-          </div>
-        </article>
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <p><span lang="tr">KutCode Labs bağımsız bir yazılım stüdyosu. Oyun tasarımını, bilgisayarlı görüyü ve mobil geliştirmeyi bir araya getirerek ailelerin birlikte, kalkıp hareket ederek eğlenebileceği ürünler yapıyoruz.</span><span lang="en">KutCode Labs is an independent software studio. We bring together game design, computer vision and mobile development to make things families can enjoy together, up on their feet.</span></p>
+          <p><span lang="tr">Her ürünü sade ve odaklı tutuyoruz: reklam yok, hesap yok, kişisel veri toplamak yok.</span><span lang="en">We keep every product simple and focused: no ads, no accounts, no collecting personal data.</span></p>
+        </div>
+        <ol class="values" data-reveal>
+          <li><b>01</b><div><h3><span lang="tr">Önce eğlence</span><span lang="en">Fun first</span></h3><p><span lang="tr">Her şey ilk dakikadan oyun gibi hissettirmeli.</span><span lang="en">Everything should feel like play from the first minute.</span></p></div></li>
+          <li><b>02</b><div><h3><span lang="tr">Önce gizlilik</span><span lang="en">Privacy first</span></h3><p><span lang="tr">Görüntü cihazdan çıkmaz, veri toplanmaz.</span><span lang="en">Pictures stay on the device; no data is collected.</span></p></div></li>
+          <li><b>03</b><div><h3><span lang="tr">Herkes için</span><span lang="en">For everyone</span></h3><p><span lang="tr">Yaş, beceri ya da pahalı donanım engel olmamalı.</span><span lang="en">Age, skill or pricey hardware shouldn't stand in the way.</span></p></div></li>
+        </ol>
       </div>
     </div>
   </section>
 
-  <section id="how" class="how">
+  <section id="contact" class="contact">
     <div class="wrap">
-      <div class="section-head">
-        <div class="kicker"><span lang="tr">Nasıl oynanır</span><span lang="en">How to play</span></div>
-        <h2><span lang="tr">Kurulumu bir dakika</span><span lang="en">Set up in a minute</span></h2>
-        <p><span lang="tr">Ek cihaz gerekmez: bir telefon ve bir TV yeter.</span><span lang="en">Nothing extra to buy: a phone and a TV are all you need.</span></p>
-      </div>
-      <div class="steps">
-        <div class="step">
-          <h3><span lang="tr">Telefonu koy</span><span lang="en">Stand the phone up</span></h3>
-          <p><span lang="tr">Telefonu bir standa koy; ana kamerası odaya baksın.</span><span lang="en">Put the phone on a stand, its main camera facing the room.</span></p>
-        </div>
-        <div class="step">
-          <h3><span lang="tr">TV'ye yansıt</span><span lang="en">Show it on the TV</span></h3>
-          <p><span lang="tr">Ekran yansıtma ya da USB-C–HDMI kabloyla telefonun ekranını TV'de aç.</span><span lang="en">Mirror the phone's screen to the TV, or use a USB-C to HDMI cable.</span></p>
-        </div>
-        <div class="step">
-          <h3><span lang="tr">Geri çekil</span><span lang="en">Step back</span></h3>
-          <p><span lang="tr">2–3 metre geri çekil; kamerada görünen herkes oyuna katılır, dört kişiye kadar.</span><span lang="en">Step back 2–3 metres; everyone in view joins in, up to four players.</span></p>
-        </div>
-        <div class="step">
-          <h3><span lang="tr">Elini kaldır, oyna</span><span lang="en">Raise a hand, play</span></h3>
-          <p><span lang="tr">Elini kaldırıp fare gibi kullan, bir oyun seç ve bedeninle oyna.</span><span lang="en">Raise a hand to point like a mouse, pick a game and play with your body.</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="privacy-band">
-    <div class="wrap">
-      <div class="card">
-        <div class="shield" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#0e261b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
-        </div>
-        <div>
-          <h2><span lang="tr">Görüntün telefondan çıkmaz</span><span lang="en">Your picture never leaves the phone</span></h2>
-          <p><span lang="tr">Kamera görüntüsü hiçbir zaman gösterilmez, kaydedilmez ve gönderilmez; yalnızca telefonda, hareketleri algılamak için işlenir. Reklam, hesap ve uygulama içi satın alma yok.</span><span lang="en">The camera picture is never shown, recorded or sent anywhere; it is processed only on the phone to follow your movements. No ads, no accounts, no in-app purchases.</span></p>
-        </div>
-        <a class="button" href="/motionarea/privacy/"><span lang="tr">Gizlilik politikası</span><span lang="en">Privacy policy</span></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="studio">
-    <div class="wrap">
-      <div class="card">
-        <div>
-          <img class="studio-logo" src="/img/logo.png" alt="kutcodelabs" width="394" height="120">
-          <h2><span lang="tr">Hareketle oynanan oyunlar yapıyoruz</span><span lang="en">We make games you play by moving</span></h2>
-          <p><span lang="tr">KutCode Labs, ailelerin birlikte, kalkıp hareket ederek oynadığı oyunlar geliştiren bağımsız bir stüdyo. MotionArea ilk ürünümüz.</span><span lang="en">KutCode Labs is an independent studio making games families play together, up on their feet. MotionArea is our first product.</span></p>
-        </div>
-        <div>
-          <p><span lang="tr">Görüş, soru ve iş birlikleri için:</span><span lang="en">Feedback, questions and partnerships:</span></p>
-          <a class="mail" href="mailto:info@kutcodelabs.com">info@kutcodelabs.com</a>
+      <div class="contact-card" data-reveal>
+        <img class="peek" src="/img/animals/fox.webp" alt="" width="381" height="420" loading="lazy">
+        <div class="contact-text">
+          <div class="kicker"><span lang="tr">İletişim</span><span lang="en">Contact</span></div>
+          <h2><span lang="tr">Merhaba deyin.</span><span lang="en">Say hello.</span></h2>
+          <p><span lang="tr">Görüş, iş birliği, basın ya da sadece merhaba demek için bize yazın.</span><span lang="en">Feedback, partnerships, press, or just to say hi: drop us a line.</span></p>
+          <a class="mail" href="mailto:info@kutcodelabs.com">info@kutcodelabs.com <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </div>
@@ -206,6 +224,7 @@
   <div class="wrap">
     <img class="foot-logo" src="/img/logo-white.png" alt="kutcodelabs" width="394" height="120">
     <span>© <span id="year">2026</span> KutCode Labs</span>
+    <a href="/motionarea/">MotionArea</a>
     <a href="/motionarea/privacy/"><span lang="tr">MotionArea gizlilik politikası</span><span lang="en">MotionArea privacy policy</span></a>
     <a class="spacer" href="mailto:info@kutcodelabs.com">info@kutcodelabs.com</a>
   </div>
