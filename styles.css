@@ -140,6 +140,17 @@ html[data-lang="tr"] .lang [data-set="tr"], html[data-lang="en"] .lang [data-set
   position: absolute; z-index: 2; left: calc(var(--u) * 6.7); top: var(--hdr-h); bottom: 0;
   width: calc(var(--u) * 37.5); display: flex; flex-direction: column; justify-content: center; padding-bottom: 2vh;
 }
+/* Our product, a small tag above the headline. */
+.hero-chip {
+  align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; margin-bottom: max(16px, calc(var(--u) * 2.2));
+  padding: 6px 7px 6px 6px; border-radius: 999px; background: #fff; text-decoration: none; font-size: 14px; color: var(--ink-soft);
+  box-shadow: 0 0 0 1px var(--line), 0 12px 26px -20px rgba(15, 15, 14, .45); animation: rise .8s .2s var(--quint) both;
+}
+.hero-chip img { width: 30px; height: 30px; border-radius: 9px; }
+.hero-chip b { color: var(--ink); font-weight: 700; }
+.hero-chip .dot-arrow { display: grid; place-items: center; width: 26px; height: 26px; margin-left: 4px; border-radius: 50%; background: var(--ink); color: #fff; transition: transform .45s var(--expo); }
+.hero-chip .dot-arrow svg { width: 12px; height: 12px; transform: rotate(-45deg); }
+.hero-chip:hover .dot-arrow { transform: rotate(45deg); }
 .hero-copy h1 { font-size: calc(var(--u) * 5.75); line-height: .94; letter-spacing: -.06em; -webkit-text-stroke: .012em currentColor; margin-bottom: calc(var(--u) * 2.4); }
 .ln { display: block; overflow: hidden; padding: 0 .04em .03em 0; margin-bottom: -.03em; }
 .ln > span { display: block; }
