@@ -151,7 +151,7 @@ html[data-lang="tr"] .lang [data-set="tr"], html[data-lang="en"] .lang [data-set
   width: calc(var(--col) * 3 + var(--gap) * 2);
 }
 .col { position: absolute; top: 0; width: var(--col); will-change: transform; }
-.js .col { animation: colDown 14.6s linear infinite; }
+.js .col { animation: colDown 17.52s linear infinite; }
 .js .c2, .js .x1 { animation-name: colUp; }
 .c1 { left: 0; top: calc(var(--pitch) * .304); }
 .c2 { left: calc(var(--col) + var(--gap)); top: calc(var(--pitch) * -.041); }
