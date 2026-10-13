@@ -172,17 +172,6 @@ html[data-lang="tr"] .lang [data-set="tr"], html[data-lang="en"] .lang [data-set
 }
 .dark::after { opacity: .05; mix-blend-mode: screen; }
 .pet img { position: absolute; z-index: 1; left: 5%; width: 90%; height: auto; bottom: -6%; }
-.mark img { position: absolute; left: 50%; top: 50%; width: 56%; height: auto; transform: translate(-50%, -50%); }
-.stat { display: flex; flex-direction: column; justify-content: flex-end; padding: 0 11% 12%; color: #fff; }
-.stat b { font: 900 calc(var(--col) * .44)/.84 var(--display); font-stretch: 75%; letter-spacing: -.05em; }
-.stat span { margin-top: 7%; font: 700 calc(var(--col) * .068)/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; }
-.cream.stat, .pale.stat, .sand.stat { color: var(--ink); }
-.steel.stat { color: #fff; }
-/* A move the games read, in big letters. */
-.word { display: flex; align-items: flex-end; padding: 0 10% 11%; color: var(--ink); }
-.word b { font: 900 calc(var(--col) * .3)/.86 var(--display); font-stretch: 72%; letter-spacing: -.04em; text-transform: uppercase; }
-.word b::after { content: ""; display: block; width: calc(var(--col) * .09); height: calc(var(--col) * .09); margin-top: 10%; border-radius: 50%; background: currentColor; }
-.steel.word, .dark.word { color: #fff; }
 @media (min-aspect-ratio: 187/100) { .x1 { display: block; } }
 @media (min-aspect-ratio: 214/100) { .x2 { display: block; } }
 
