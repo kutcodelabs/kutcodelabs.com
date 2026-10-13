@@ -2,7 +2,7 @@
 <html lang="tr" data-lang="tr" data-title-tr="KutCode Labs — İnsanları harekete geçiren yazılımlar" data-title-en="KutCode Labs — Software that gets people moving">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>KutCode Labs — İnsanları harekete geçiren yazılımlar</title>
 <meta name="description" content="KutCode Labs, mobil oyunlar ve uygulamalar geliştiren bağımsız bir yazılım stüdyosu. İlk ürünümüz MotionArea: telefonun kamerasıyla bütün vücudu takip eden aile oyunları.">
 <meta property="og:title" content="KutCode Labs">
@@ -12,75 +12,99 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://kutcodelabs.com/">
-<meta name="theme-color" content="#011122">
+<meta name="theme-color" content="#f5f4ef">
 <link rel="icon" type="image/png" href="/favicon.png?v=2">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=9">
 <script src="/lang.js?v=3" defer></script>
-<script src="/site.js?v=1" defer></script>
+<script src="/site.js?v=2" defer></script>
 </head>
-<body>
+<body class="home">
 
-<header class="top over">
-  <div class="wrap">
-    <a class="brand" href="/" aria-label="KutCode Labs">
-      <img class="logo-dark" src="/img/logo.png?v=2" alt="kutcodelabs" width="394" height="120">
-      <img class="logo-light" src="/img/logo-white.png?v=2" alt="" width="394" height="120">
-    </a>
-    <nav class="nav">
-      <a href="#what"><span lang="tr">Ne yapıyoruz</span><span lang="en">What we do</span></a>
-      <a href="#products"><span lang="tr">Ürünler</span><span lang="en">Products</span></a>
-      <a href="#about"><span lang="tr">Hakkımızda</span><span lang="en">About</span></a>
-      <a href="#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
+<header class="hdr" data-open="false">
+  <div class="util">
+    <a class="u-item" href="mailto:info@kutcodelabs.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7.5l8.5 6 8.5-6"/></svg><span>info@kutcodelabs.com</span></a>
+    <span class="u-rule" aria-hidden="true"></span>
+    <span class="u-item"><span lang="tr">Bağımsız yazılım ve oyun stüdyosu</span><span lang="en">Independent software &amp; game studio</span></span>
+    <div class="lang" role="group" aria-label="Language"><button type="button" data-set="tr">TR</button><button type="button" data-set="en">EN</button></div>
+  </div>
+  <div class="main-row">
+    <a class="brand" href="/" aria-label="KutCode Labs"><img src="/img/logo.png?v=2" alt="kutcodelabs" width="394" height="120"></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="/#products"><span lang="tr">Ürünler</span><span lang="en">Products</span><span class="dot-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <span class="nav-sep" aria-hidden="true"></span>
+      <a href="/#what"><span lang="tr">Ne yapıyoruz</span><span lang="en">What we do</span></a>
+      <a href="/#about"><span lang="tr">Hakkımızda</span><span lang="en">About</span></a>
+      <a href="/#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
     </nav>
-    <div class="lang" role="group" aria-label="Language">
-      <button type="button" data-set="tr">TR</button>
-      <button type="button" data-set="en">EN</button>
-    </div>
+    <a class="cta-pair" href="/motionarea/" aria-label="MotionArea"><span class="pill">MotionArea</span><span class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"><i></i><i></i></span><span lang="tr">Menü</span><span lang="en">Menu</span></button>
+  </div>
+  <div class="panel" id="menu">
+    <a href="/#products"><span lang="tr">Ürünler</span><span lang="en">Products</span></a>
+    <a href="/#what"><span lang="tr">Ne yapıyoruz</span><span lang="en">What we do</span></a>
+    <a href="/#about"><span lang="tr">Hakkımızda</span><span lang="en">About</span></a>
+    <a href="/#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
+    <a href="/motionarea/">MotionArea</a>
+    <div class="panel-foot"><a href="mailto:info@kutcodelabs.com">info@kutcodelabs.com</a><div class="lang" role="group" aria-label="Language"><button type="button" data-set="tr">TR</button><button type="button" data-set="en">EN</button></div></div>
   </div>
 </header>
 
 <main>
-  <!-- The studio up front; our first product playing on a phone beside it. -->
-  <section class="co-hero">
-    <div class="wrap co-hero-grid">
-      <div class="co-hero-text">
-        <div class="kicker"><span lang="tr">Yazılım ve oyun stüdyosu</span><span lang="en">Software &amp; game studio</span></div>
-        <h1>
-          <span lang="tr">İnsanları <em>harekete geçiren</em> yazılımlar.</span>
-          <span lang="en">Software that gets people <em>moving.</em></span>
-        </h1>
-        <p class="lead">
-          <span lang="tr">KutCode Labs, mobil oyunlar ve uygulamalar geliştiren bağımsız bir yazılım stüdyosu. Telefonun kamerasını ve cihaz üzerinde çalışan yapay zekâyı kullanarak, ek donanım gerektirmeyen deneyimler tasarlıyoruz.</span>
-          <span lang="en">KutCode Labs is an independent software studio making mobile games and apps. We use the phone's camera and on-device AI to build experiences that need no extra hardware.</span>
-        </p>
-        <div class="cta">
-          <a class="button" href="#products"><span lang="tr">Ürünlerimiz</span><span lang="en">Our products</span> <span class="arrow" aria-hidden="true">→</span></a>
-          <a class="button ghost" href="#contact"><span lang="tr">Bize ulaşın</span><span lang="en">Get in touch</span></a>
-        </div>
+  <!-- The headline on the left; the games, the animals and a few numbers scrolling past on the right. -->
+  <section class="stage-hero">
+    <div class="hero-copy">
+      <h1>
+        <span lang="tr"><span class="ln"><span>İnsanları</span></span><span class="ln"><span>harekete</span></span><span class="ln"><span>geçiren</span></span><span class="ln"><span>yazılımlar.</span></span></span>
+        <span lang="en"><span class="ln"><span>Software</span></span><span class="ln"><span>that gets</span></span><span class="ln"><span>people</span></span><span class="ln"><span>moving.</span></span></span>
+      </h1>
+      <p>
+        <span lang="tr">KutCode Labs, mobil oyunlar ve uygulamalar geliştiren bağımsız bir yazılım stüdyosu. İlk ürünümüz <strong>MotionArea</strong>, telefonun kamerasıyla bütün vücudu takip eden aile oyunları; yakında Google Play'de.</span>
+        <span lang="en">KutCode Labs is an independent software studio making mobile games and apps. Our first product, <strong>MotionArea</strong>, turns the phone's camera into a whole-body controller for family games — coming soon to Google Play.</span>
+      </p>
+      <div class="acts">
+        <a class="cta-pair" href="#products"><span class="pill"><span lang="tr">Ürünlerimiz</span><span lang="en">Our products</span></span><span class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="text-link" href="#contact"><span lang="tr">Bize yazın</span><span lang="en">Write to us</span><span class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
       </div>
-      <div class="scene" aria-hidden="true">
-        <img class="buddy buddy-1" src="/img/animals/fox.webp" alt="" width="381" height="420">
-        <img class="buddy buddy-2" src="/img/animals/leopard.webp" alt="" width="420" height="367">
-        <div class="device">
-          <div class="screen">
-            <div class="slides">
-              <div class="slide on" style="background-image: url('/img/hero-jungle-run.webp')"></div>
-              <div class="slide" style="background-image: url('/img/hero-gold-rain.webp')"></div>
-              <div class="slide" style="background-image: url('/img/hero-red-light.webp')"></div>
-              <div class="slide" style="background-image: url('/img/hero-wall-rush.webp')"></div>
-              <div class="slide" style="background-image: url('/img/hero-snowball-towers.webp')"></div>
-              <div class="slide" style="background-image: url('/img/hero-floor-piano.webp')"></div>
-            </div>
-          </div>
-        </div>
-        <div class="chip-float">
-          <img src="/img/motionarea-icon.png" alt="" width="40" height="40">
-          <span><strong>MotionArea</strong><small><span lang="tr">Yakında Google Play'de</span><span lang="en">Coming soon to Google Play</span></small></span>
-        </div>
+    </div>
+    <div class="grid" aria-hidden="true">
+      <div class="col x2">
+        <div class="cell pale pet"><img src="/img/animals/fox.webp" alt="" width="381" height="420"></div>
+        <div class="cell ph" style="--pic: url('/img/hero-gold-rain.webp')"></div>
+        <div class="cell sand word"><b><span lang="tr">KOŞ</span><span lang="en">RUN</span></b></div>
+        <div class="cell ph" style="--pic: url('/img/hero-red-light.webp')"></div>
+        <div class="cell steel pet"><img src="/img/animals/wolf.webp" alt="" width="420" height="416"></div>
+      </div>
+      <div class="col x1">
+        <div class="cell ph" style="--pic: url('/img/hero-snowball-towers.webp'); --pos: 40% 50%"></div>
+        <div class="cell steel stat"><b>0</b><span lang="tr">Reklam</span><span lang="en">Ads</span></div>
+        <div class="cell ph" style="--pic: url('/img/hero-jungle-run.webp')"></div>
+        <div class="cell cream pet"><img src="/img/animals/lion.webp" alt="" width="420" height="367"></div>
+        <div class="cell dark word"><b><span lang="tr">EĞİL</span><span lang="en">LEAN</span></b></div>
+      </div>
+      <div class="col c1">
+        <div class="cell steel pet"><img src="/img/animals/lion.webp" alt="" width="420" height="367"></div>
+        <div class="cell ph" style="--pic: url('/img/hero-jungle-run.webp'); --pos: 52% 50%"></div>
+        <div class="cell cream pet"><img src="/img/animals/fox.webp" alt="" width="381" height="420"></div>
+        <div class="cell dark stat"><b>1–4</b><span lang="tr">Oyuncu</span><span lang="en">Players</span></div>
+        <div class="cell ph" style="--pic: url('/img/hero-gold-rain.webp')"></div>
+      </div>
+      <div class="col c2">
+        <div class="cell sand stat"><b>0</b><span lang="tr">Kumanda</span><span lang="en">Controllers</span></div>
+        <div class="cell ph" style="--pic: url('/img/hero-red-light.webp')"></div>
+        <div class="cell pale pet"><img src="/img/animals/wolf.webp" alt="" width="420" height="416"></div>
+        <div class="cell ph" style="--pic: url('/img/hero-snowball-towers.webp'); --pos: 40% 50%"></div>
+        <div class="cell dark mark"><img src="/img/mark-white.png" alt="" width="320" height="285"></div>
+      </div>
+      <div class="col c3">
+        <div class="cell pale word"><b><span lang="tr">ZIPLA</span><span lang="en">JUMP</span></b></div>
+        <div class="cell cream stat"><b>06</b><span lang="tr">Oyun</span><span lang="en">Games</span></div>
+        <div class="cell ph" style="--pic: url('/img/hero-wall-rush.webp')"></div>
+        <div class="cell sand pet"><img src="/img/animals/leopard.webp" alt="" width="420" height="367"></div>
+        <div class="cell ph" style="--pic: url('/img/hero-floor-piano.webp')"></div>
       </div>
     </div>
   </section>
@@ -222,10 +246,8 @@
 
 <footer>
   <div class="wrap">
-    <img class="foot-logo" src="/img/logo-white.png?v=2" alt="kutcodelabs" width="394" height="120">
+    <img class="foot-logo" src="/img/logo.png?v=2" alt="kutcodelabs" width="394" height="120">
     <span>© <span id="year">2026</span> KutCode Labs</span>
-    <a href="/motionarea/">MotionArea</a>
-    <a href="/motionarea/privacy/"><span lang="tr">MotionArea gizlilik politikası</span><span lang="en">MotionArea privacy policy</span></a>
     <a class="spacer" href="mailto:info@kutcodelabs.com">info@kutcodelabs.com</a>
   </div>
 </footer>
