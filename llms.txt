@@ -1,0 +1,32 @@
+# KutCode Labs
+
+> KutCode Labs is an independent software studio that makes mobile games and apps people play by moving. Its first product, MotionArea, is an Android app of family motion games that follow the players' whole bodies through the phone's camera — no controllers, sensors or extra hardware.
+
+- Website: https://kutcodelabs.com/ (Turkish) · https://kutcodelabs.com/en/ (English)
+- Contact: info@kutcodelabs.com
+- Founder: Hilal Ulusoy
+- Focus: mobile game development, on-device body tracking (computer vision), family and party games
+
+## MotionArea
+
+- Page: https://kutcodelabs.com/motionarea/ (Turkish) · https://kutcodelabs.com/en/motionarea/ (English)
+- Platform: Android phones with a camera; coming soon to Google Play
+- Price: free, supported by ads (Google AdMob, not personalised, suitable for families); no in-app purchases; no account needed
+- Players: one to four at once, on one screen; everyone in view joins in
+- Play on a TV: mirror the phone's screen, or use a USB-C to HDMI cable; stand the phone up and step back 2–3 metres
+- How it works: the phone camera follows each player's body on the device itself (Google MediaPipe); each player becomes an animal — fox, wolf, lion or leopard — that copies their moves. In the menus a raised hand works like a mouse.
+- Privacy: the camera picture is processed only on the phone, in real time; it is never shown, recorded or sent online.
+- Privacy policy: https://kutcodelabs.com/motionarea/privacy/
+
+### The six games
+
+- Jungle Run — run on the spot along a winding jungle path; lean to change lanes, jump the logs, duck the branches.
+- Gold Rain — lean left and right to run under the falling gold and catch it; dodge the bombs.
+- Red Light, Green Light — run while the giant hunter sings, freeze when he turns round; anyone still moving goes back to the start.
+- Wall Rush — walls are coming: make the shape of the hole with your body, or splash into the lake.
+- Snowball Towers — a team snowball battle: scoop snow, raise a hand to aim, knock down the other tower's snowmen.
+- Floor Piano — jump onto the glowing tiles as they come down and play famous tunes with your feet.
+
+## Türkçe özet
+
+KutCode Labs, hareketle oynanan mobil oyunlar ve uygulamalar geliştiren bağımsız bir yazılım stüdyosudur. İlk ürünü MotionArea, telefonun kamerasıyla bütün vücudu takip eden, ailece 1–4 kişi oynanan Android hareket oyunlarıdır: Jungle Run, Altın Yağmuru, Kırmızı Işık Yeşil Işık, Duvar Koşusu, Kartopu Kuleleri ve Yer Piyanosu. Kumanda gerekmez, görüntü TV'ye yansıtılabilir; kamera görüntüsü yalnızca telefonda işlenir, kaydedilmez ve gönderilmez. Oyun ücretsizdir ve reklamlarla (Google AdMob, kişiselleştirilmemiş) desteklenir; uygulama içi satın alma yoktur. İletişim: info@kutcodelabs.com

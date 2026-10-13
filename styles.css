@@ -464,6 +464,24 @@ footer .spacer { margin-left: auto; }
   background: var(--steel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / 16px no-repeat;
 }
 
+/* FAQ: a question per line; tapping one opens its answer. */
+.faq { padding: 130px 0 0; }
+.faq h2 { font-size: clamp(40px, 5vw, 76px); margin-bottom: 40px; }
+.faq-list { max-width: 960px; border-top: 1px solid var(--rule); }
+.faq details { border-bottom: 1px solid var(--rule); }
+.faq summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 0;
+  font: 800 clamp(19px, 1.8vw, 25px)/1.25 var(--display); font-stretch: 92%; letter-spacing: -.02em;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: "+"; flex: none; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%;
+  background: var(--ink); color: #fff; font: 500 22px/1 var(--sans); transition: transform .35s var(--expo);
+}
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq summary:hover { color: var(--steel-deep); }
+.faq details p { margin: 0 0 24px; max-width: 780px; color: var(--ink-soft); font-size: 17px; }
+
 /* ── Policy pages ── */
 .doc { max-width: 780px; margin: 0 auto; padding: calc(var(--hdr-h) + 56px) 24px 90px; }
 .doc h1 { font-size: clamp(36px, 5vw, 56px); margin-bottom: 14px; }
@@ -576,6 +594,8 @@ footer .spacer { margin-left: auto; }
   .products { padding: 0 0 88px; }
   .about, .contact { padding: 88px 0; }
   .privacy { padding-top: 88px; }
+  .faq { padding-top: 88px; }
+  .faq h2 { margin-bottom: 28px; }
   .games { padding-bottom: 40px; }
   .list { margin: 0 -18px; padding: 6px 18px 26px; scroll-padding: 0 18px; }
   .g { flex-basis: 84%; }

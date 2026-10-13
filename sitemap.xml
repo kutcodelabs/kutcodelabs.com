@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kutcodelabs.com/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kutcodelabs.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kutcodelabs.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kutcodelabs.com/"/>
+    <image:image><image:loc>https://kutcodelabs.com/img/og-kutcode.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kutcodelabs.com/en/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kutcodelabs.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kutcodelabs.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kutcodelabs.com/"/>
+    <image:image><image:loc>https://kutcodelabs.com/img/og-kutcode.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kutcodelabs.com/motionarea/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kutcodelabs.com/motionarea/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kutcodelabs.com/en/motionarea/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kutcodelabs.com/motionarea/"/>
+    <image:image><image:loc>https://kutcodelabs.com/img/og-image.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-jungle-run.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-gold-rain.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-red-light.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-wall-rush.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-snowball-towers.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-floor-piano.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kutcodelabs.com/en/motionarea/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kutcodelabs.com/motionarea/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kutcodelabs.com/en/motionarea/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kutcodelabs.com/motionarea/"/>
+    <image:image><image:loc>https://kutcodelabs.com/img/og-image.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-jungle-run.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-gold-rain.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-red-light.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-wall-rush.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-snowball-towers.webp</image:loc></image:image>
+    <image:image><image:loc>https://kutcodelabs.com/img/hero-floor-piano.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kutcodelabs.com/motionarea/privacy/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+</urlset>
