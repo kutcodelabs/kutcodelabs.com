@@ -14,7 +14,7 @@
 - Price: free, supported by ads (Google AdMob, not personalised, suitable for families); no in-app purchases; no account needed
 - Players: one to four at once, on one screen; everyone in view joins in
 - Play on a TV: mirror the phone's screen, or use a USB-C to HDMI cable; stand the phone up and step back 2–3 metres
-- How it works: the phone camera follows each player's body on the device itself (Google MediaPipe); each player becomes an animal — fox, wolf, lion or leopard — that copies their moves. In the menus a raised hand works like a mouse.
+- How it works: the phone camera follows each player's body on the device itself (Google MediaPipe); each player becomes an animal — fox, wolf, lion or gazelle — that copies their moves. In the menus a raised hand works like a mouse.
 - Privacy: the camera picture is processed only on the phone, in real time; it is never shown, recorded or sent online.
 - Privacy policy: https://kutcodelabs.com/motionarea/privacy/
 
